@@ -1,33 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<meta name="viewport" content="width=device-width,initial-scale=1" />
-<title>Banon</title>
-<link rel="stylesheet" href="index.css">
-
-    
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Banon Temple</title>
+    <link rel="stylesheet" href="css/style.css">
 </head>
-<body style="background-color: aliceblue;">
+<body>
+    
+    <div class="header">
+       <h1>Welcome To Our Travelling</h1> 
+    </div>
+    
+    <div class="banner">
+      <img src="image/Banner.webp" alt="Banon Temple Banner">
+    </div>
 
-<nav style="height: 20px;border: rgb(145, 142, 142);text-align: center;">
-            <a style="color: rgb(255, 49, 49);" href="">BANAN TEMPLE</a>
-            <ul type="none"></ul>
+    <nav class="navigation">
+        <div class="dropdown">
+            <button class="dropdown-button">HOME PAGE ▼</button>
+            <div class="dropdown-content">
+                <a href="index.html">Home</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="main-content">
+        <aside class="sidebar">
+            <input type="checkbox" id="menu-toggle" class="menu-toggle" checked>
+            <label for="menu-toggle" class="menu-label">TRAVEL ▼</label>
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a href="banon.html" class="active">Banon Temple</a>
+                </li>
+                <li>
+                    <a href="pnomsompov.html">Phnom Sampov</a>
+                </li>
+                <li>
+                    <a href="bamboo.html">Bamboo Train</a>
+                </li>
+                <li>
+                    <a href="btb.html">Battambang City</a>
+                </li>
+                <li>
+                    <a href="contryside.html">Country Side</a>
+                </li>
+            </ul>
+        </aside>
+        
+        <article class="content-area">
+            <h1>Banon Temple (ប្រាសាទបាណន់)</h1>
             
-        </nav>
-        <main style="display: flex ; height: 230px;">
-            <aside style="width: px;">
-                <h2 style="text-align:center ; "></h2>
-                <ul type="none">
-                   
-                  <li>
+            <p>
+                Banon Temple is a stunning ancient Angkorian temple located in Battambang Province, Cambodia. 
+                Built in the 11th century during the reign of King Udayadityavarman II, this hilltop temple 
+                offers breathtaking panoramic views of the surrounding countryside and rice paddies.
+            </p>
 
-                  <article><img src="wat.jpg" height="300" width="250px">
-                            <img src="banon.jpg"height="300" width="250px">
-                <p>ប្រាសាទបាណន់ ស្ថិតនៅស្រុកបាណន់ ខេត្តបាត់ដំបង ប្រទេសកម្ពុជា ជាប្រាសាទសំខាន់មួយសាងសង់ក្នុងសតវត្សទី១១ នាសម័យអង្គរ ដោយព្រះបាទឧទ័យាទិត្យវរ្ម័នទី២ ហើយឧទ្ទិសដល់ព្រះសិវៈ។ ប្រាសាទនេះមានស្ថាបត្យកម្មរចនាបថអង្គរ មានប៉មប្រាសាទចំនួនប្រាំសង់លើកំពូលភ្នំ ហើយអ្នកទេសចរត្រូវឡើងជណ្ដើរប្រហែល ៣៥០–៤០០ ជំហាន ដើម្បីទៅដល់កំពូល ដែលអាចមើលឃើញទេសភាពស្រស់ស្អាតជុំវិញតំបន់។
-                  ប្រាសាទមាន ប្រាសាទ៥ នៅលើកំពូលភ្នំ និងមានជណ្តើរថ្មប្រហែល ៣៥០ជំហាន ឡើងទៅខាងលើ។ វាជាប្រាសាទបែបអង្គរ សង់ពីថ្មភក់ និងថ្មលើក។ ពីលើកំពូលអាចមើលឃើញទេសភាពស្រែ និងភូមិសាស្ត្រខេត្តបាត់ដំបងយ៉ាងស្រស់ស្អាត។
-                  
-                </p>
-                
+            <div class="info-box">
+                <h3>Quick Facts</h3>
+                <p><strong>Built:</strong> 11th century (around 1027 AD)<br>
+                <strong>Location:</strong> 25 km south of Battambang city<br>
+                <strong>Steps to climb:</strong> Approximately 358 steps<br>
+                <strong>Architecture:</strong> Five towers in quincunx pattern</p>
+            </div>
+
+            <div class="image-gallery">
+                <img src="image/btb.jpg" alt="Banon Temple">
+                <img src="image/wat.jpg" alt="Temple Towers">
+                <img src="image/banon.jpg" alt="Temple View">
+            </div>
+
+            <p>
+                The temple sits atop a hill and requires climbing approximately 358 steps to reach the top. 
+                The journey is well worth the effort, as visitors are rewarded with spectacular views and 
+                well-preserved ancient architecture. The temple complex consists of five towers arranged in 
+                a quincunx pattern, similar to Angkor Wat.
+            </p>
+
+            <p>
+                Banon Temple is not only a significant historical site but also an active place of worship. 
+                Local monks maintain a pagoda at the base of the hill, and the site remains an important 
+                spiritual destination for Cambodian Buddhists. The peaceful atmosphere and scenic beauty 
+                make it a must-visit destination for anyone traveling through Battambang Province.
+            </p>
+
+            <p>
+                The best time to visit Banon Temple is early morning or late afternoon when the temperature 
+                is cooler and the lighting is perfect for photography. The sunset views from the top are 
+                particularly spectacular, with golden light illuminating the vast rice fields below.
+            </p>
+        </article>
+    </main>
+    
+    <footer class="footer">
+        <p>&copy; 2024 Travel Cambodia. All rights reserved.</p>
+    </footer>
+        
 </body>
 </html>
